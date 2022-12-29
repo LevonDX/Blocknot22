@@ -21,6 +21,10 @@ namespace Blocknot22
             this.records.Add(record);
         }
 
+        public void Clear()
+        {
+            this.records.Clear();
+        }
         public void Remove(Record record)
         {
             this.records.Remove(record);

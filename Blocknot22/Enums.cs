@@ -13,5 +13,6 @@ namespace Blocknot22
         Find = 2,
         Remove = 3,
         ShowAll = 4,
+        Save = 5
     }
 }

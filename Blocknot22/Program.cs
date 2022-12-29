@@ -4,8 +4,8 @@
     {
         static void Main(string[] args)
         {
-            
             Blocknot blocknot = new Blocknot();
+            blocknot.LoadFromFile();
 
             do
             {
@@ -25,6 +25,7 @@
                 }
 
                 MenuItems selectedItem = (MenuItems)choice;
+                bool isExit = false;
 
                 switch (selectedItem)
                 {
@@ -58,11 +59,26 @@
                         blocknot.ShowAllConsole();
                         break;
 
+                    case MenuItems.Save:
+                        blocknot.SaveToFile();
+                        break;
+
+                    case MenuItems.Exit:
+                        isExit = true;
+                        break;
+
                     default:
                         break;
                 }
 
                 Console.WriteLine();
+
+                if(isExit)
+                {
+                    Console.WriteLine("Saving and exiting...");
+                    blocknot.SaveToFile();
+                    break;
+                }
 
             } while (true);
         }
