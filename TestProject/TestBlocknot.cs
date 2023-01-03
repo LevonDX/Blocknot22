@@ -10,7 +10,7 @@ namespace TestProject
     [TestClass]
     public class TestBlocknot
     {
-        // Testing Add method of Blocknot class
+        // Testing Add method of Blocknot class - in github
         [TestMethod]
         public void TestAdd()
         {
