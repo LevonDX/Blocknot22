@@ -29,6 +29,7 @@ namespace TestProject
             Assert.AreEqual(3, blocknot.Count());
         }
 
+        // Testing Remove method
         [TestMethod]
         public void TestRemove()
         {
