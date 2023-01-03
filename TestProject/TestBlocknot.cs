@@ -11,6 +11,7 @@ namespace TestProject
     public class TestBlocknot
     {
         // Testing Add method of Blocknot class - in github from command line
+        // Package Manager Console
         [TestMethod]
         public void TestAdd()
         {
