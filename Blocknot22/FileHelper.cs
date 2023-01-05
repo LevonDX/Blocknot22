@@ -11,7 +11,7 @@ namespace Blocknot22
     {
         const string FileName = "Blocknot.txt";
 
-        // Advanced method, in master branch
+        // Advanced method, in master branch in other branch
         public static void SaveToFile(this Blocknot blocknot)
         {
             using StreamWriter writer = new StreamWriter(FileName);
