@@ -11,6 +11,7 @@ namespace Blocknot22
     {
         const string FileName = "Blocknot.txt";
 
+        // Advanced method
         public static void SaveToFile(this Blocknot blocknot)
         {
             using StreamWriter writer = new StreamWriter(FileName);
