@@ -22,6 +22,7 @@ namespace Blocknot22
             }
         }
 
+        // Some other changes
         public static void LoadFromFile(this Blocknot blocknot)
         {
             using StreamReader streamReader = new StreamReader(FileName);
